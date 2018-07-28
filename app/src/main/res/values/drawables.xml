@@ -1,0 +1,8 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <item name="ic_menu_home" type="drawable">@drawable/ic_menu_home</item>
+    <item name="ic_menu_profile" type="drawable">@drawable/ic_menu_profile</item>
+    <item name="ic_menu_events" type="drawable">@drawable/ic_menu_events</item>
+    <item name="ic_menu_favourites" type="drawable">@drawable/ic_menu_favourites</item>
+    <item name="ic_menu_share" type="drawable">@android:drawable/ic_menu_share</item>
+    <item name="ic_menu_send" type="drawable">@android:drawable/ic_menu_send</item>
+</resources>

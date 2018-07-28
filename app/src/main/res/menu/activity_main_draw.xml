@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+
+    <group android:checkableBehavior="single">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_menu_profile"
+            android:title="My Profile" />
+        <item
+            android:id="@+id/nav_events"
+            android:icon="@drawable/ic_menu_events"
+            android:title="Events" />
+        <item
+            android:id="@+id/nav_favourites"
+            android:icon="@drawable/ic_menu_favourites"
+            android:title="Favourites" />
+        <item
+            android:id="@+id/nav_inbox"
+            android:icon="@drawable/ic_menu_inbox"
+            android:title="Inbox" />
+
+        <item
+            android:id="@+id/nav_feed"
+            android:icon="@drawable/ic_menu_feed"
+            android:title="Feed Back" />
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/ic_menu_contact"
+            android:title="Contact Us" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/ic_menu_setting"
+            android:title="Settings" />
+
+
+        <item android:title="DASHBORAD">
+            <menu>
+                <item
+                    android:id="@+id/nav_mySchool"
+                    android:icon="@drawable/ic_menu_my_school"
+                    android:title="My Schools" />
+                <item
+                    android:id="@+id/nav_addSchool"
+                    android:icon="@drawable/ic_school"
+                    android:title="Add a School" />
+                <item
+                    android:id="@+id/nav_use"
+                    android:icon="@drawable/ic_menu_use"
+                    android:title="How to use Applcation" />
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/ic_menu_logout"
+                    android:title="Log Out" />
+            </menu>
+        </item>
+
+    </group>
+
+</menu>
+
